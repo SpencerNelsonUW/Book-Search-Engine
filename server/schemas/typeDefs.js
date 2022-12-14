@@ -19,7 +19,7 @@ type Book {
         savedBooks: [Book]
     }
      
-    input savedBook {
+    input BookInput {
         bookId: String!
         authors: [String]
         title: String!
